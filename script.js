@@ -15,11 +15,12 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 // 2. The "Yes" Celebration
+// 2. The "Yes" Celebration
 yesBtn.addEventListener('click', () => {
     question.innerHTML = "Yay! I knew you'd say yes! 💖";
     
-    // This is a more stable link for the celebration GIF
-    gif.src = "https://media.tenor.com/S66_pTfL-0AAAAAi/peach-goma.gif"; 
+    // Using a more stable Giphy direct link
+    gif.src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0ajZ4Z256Z3RreHdubmZ4Zmd4ZzZ4Zmd4ZzZ4Zmd4ZzZ4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MDJ9IbxxvDUQM/giphy.gif"; 
     
     noBtn.style.display = 'none';
 
